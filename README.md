@@ -1,4 +1,4 @@
-# HTML-PDF
+# NODE-PDF-GENERATOR
 script for converting html to pdf with Nodejs
 
 Important Dependencies
