@@ -3,6 +3,7 @@
   <img
     src="<%= img %>"
     class="cert" alt="">
+    
   <img src="data:<%= data.data.logo.mimetype %>;base64,<%= data.data.logo.image %>" width="150" height="100" alt=""
     class="logo" />
 
@@ -78,18 +79,6 @@
    
   }
 
-  @media print {
-
-    html,
-    body {
-      height: 100vh;
-      margin: 0 !important;
-      padding: 0 !important;
-      overflow: hidden;
-    }
-
-  }
-
   .scroll {
     width: 842px;
     overflow-x: scroll;
@@ -121,4 +110,16 @@
     color: black;
     left: 30px;
   }
+
+  @media print {
+
+html,
+body {
+  height: 100vh;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden;
+}
+
+}
 </style>
